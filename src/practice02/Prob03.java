@@ -7,12 +7,21 @@ public class Prob03 {
 
 		// 원래 배열 원소 출력
 		printCharArray(c);
-
+		for (int i = 0; i < c.length; i++) {	
+			System.out.print(c[i]);
+		}
 		// 공백 문자 바꾸기
 		replaceSpace(c);
-
+		
 		// 수정된 배열 원소 출력
 		printCharArray(c);
 	}
-	
+	public static void replaceSpace(char a[]) {
+		
+	}
+
+	public static void printCharArray(char a[]) {
+		
+	}
+
 }
